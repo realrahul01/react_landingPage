@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+.upper_main{
+    background: url('./images/pic.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sm{
+    font-size: 2.5rem;
+}
+.text{
+   padding: 3rem 0;
+}
+
+.work_section{
+    font-size: 2.5rem;   
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+}
+.work_section span{
+    font-size: 4rem;
+}
+
+.card_section{  
+    padding: 6rem 0rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_work{
+    width: 320px;
+    height: 450px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+.content{
+    padding: 8px 14px;
+}
+
+.val1{
+    padding: 10px 0px;
+}
+
+.card_work h1{
+    padding-top: 10px;
+}
+
+
+
+.more_various_section{
+    display: flex;
+}
+
+.contact{
+    padding: 1rem 3rem;
+    background-color: green;
+    color: #fff;
+}
+
+
+.contact h1{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.about{
+    padding: 1rem 3rem;
+    background-color: #722300;
+    color: #fff;
+}
+.about h1{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+
+/* <-------------- media query --------------> */
+
+@media only screen and (max-width: 1200px) {
+  .card_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_work{
+    margin-top: 40px;    
+}
+}
+
+@media only screen and (max-width:761px){
+    .more_various_section{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+}
